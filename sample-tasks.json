@@ -12,6 +12,24 @@
               "reveal": "always",
               "panel": "new"
             }
+        },
+	{
+            "label": "download-n-logs",
+            "type": "shell",
+            "command": "./bash-tasks/download-n-logs.sh ${input:param1}",
+            "group": "test",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            }
         }
+    ],
+    "inputs": [
+        {
+            "id": "param1",
+            "description": "Param1:",
+            "default": "",
+            "type": "promptString"
+        },
     ]
 }
