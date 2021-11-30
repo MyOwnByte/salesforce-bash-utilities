@@ -13,7 +13,7 @@
               "panel": "new"
             }
         },
-	{
+        {
             "label": "download-n-logs",
             "type": "shell",
             "command": "./bash-tasks/download-n-logs.sh ${input:param1}",
@@ -22,6 +22,17 @@
               "reveal": "always",
               "panel": "new"
             }
+        },
+        {
+             "label": "delete-vscode-logs",
+             "type": "shell",
+             "command": "C:\\WorkspacesGitMyOwnByte\\salesforce-bash-utilities\\bash-scripts\\delete-vscode-logs\\delete-vscode-logs.sh",
+             "group": "test",
+             "presentation": {
+                 "reveal": "always",
+                 "panel": "new"
+             },
+             "problemMatcher": []
         }
     ],
     "inputs": [
