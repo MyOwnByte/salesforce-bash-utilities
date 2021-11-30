@@ -16,7 +16,7 @@
         {
             "label": "download-n-logs",
             "type": "shell",
-            "command": "./bash-tasks/download-n-logs.sh ${input:param1}",
+            "command": "./bash-scripts/download-n-logs/download-n-logs.sh ${input:param1}",
             "group": "test",
             "presentation": {
               "reveal": "always",
@@ -26,7 +26,7 @@
         {
              "label": "delete-vscode-logs",
              "type": "shell",
-             "command": "C:\\WorkspacesGitMyOwnByte\\salesforce-bash-utilities\\bash-scripts\\delete-vscode-logs\\delete-vscode-logs.sh",
+             "command": "./bash-scripts/delete-vscode-logs/delete-vscode-logs.sh",
              "group": "test",
              "presentation": {
                  "reveal": "always",
